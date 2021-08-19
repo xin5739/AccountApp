@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical">
+    <EditText
+        android:id="@+id/edit_zhanghao"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:hint="请输入要修改密码的账户"
+        android:background="@color/button_un_pressed"/>
+
+    <EditText
+        android:id="@+id/edit_up"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="40dp"
+        android:background="@color/button_un_pressed"
+        android:layout_marginTop="250dp"
+        android:hint="请输入修改的密码"
+        android:layout_gravity="center"/>
+    <Button
+        android:id="@+id/but"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="60dp"
+        android:text="保存"
+        android:textSize="55dp"
+        />
+
+
+
+</LinearLayout>
